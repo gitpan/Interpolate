@@ -1,0 +1,8 @@
+--- #YAML:1.0
+name: Interpolate
+version: v0.0.1
+author:
+  - Daniel Muey <http://drmuey.com/cpan_contact.pl>
+abstract: Interpolate a variable or reference contents safely and quickly
+license: perl
+generated_by: Module::Build version 0.2611, without YAML.pm
