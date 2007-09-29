@@ -1,8 +1,13 @@
---- #YAML:1.0
-name: Interpolate
-version: v0.0.1
-author:
-  - Daniel Muey <http://drmuey.com/cpan_contact.pl>
-abstract: Interpolate a variable or reference contents safely and quickly
-license: perl
-generated_by: Module::Build version 0.2611, without YAML.pm
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Interpolate
+version:      v0.0.2
+version_from: lib/Interpolate.pm
+installdirs:  site
+requires:
+    Local::Maketext::Pseudo:       0
+    Test::More:                    0
+    version:                       0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

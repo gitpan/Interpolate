@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use Carp;
 
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 use Locale::Maketext::Pseudo qw(env_maketext);
 use base 'Exporter';
 our @EXPORT_OK = qw(interpolate interpolate_clone);
@@ -128,7 +128,7 @@ Interpolate - Interpolate a variable or reference contents safely and quickly
 
 =head1 VERSION
 
-This document describes Interpolate version 0.0.1
+This document describes Interpolate version 0.0.2
 
 =head1 SYNOPSIS
 

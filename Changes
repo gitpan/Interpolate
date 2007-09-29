@@ -1,5 +1,8 @@
 Revision history for Interpolate
 
+0.0.2  Sat Sep 29 16:38:29 2007
+		Made perlcritic test optional as per http://rt.cpan.org/Ticket/Display.html?id=29554#txn-364766
+
 0.0.1  Sun Feb 25 22:21:21 2007
        Initial release.
 

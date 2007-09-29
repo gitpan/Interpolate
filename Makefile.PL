@@ -11,7 +11,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Test::More'              => 0,
         'version'                 => 0,
-        'Local::Maketext::Pseudo' => 0.0.2,
+        'Local::Maketext::Pseudo' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Interpolate-*' },
